@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Addesses</title>
+  <%= stylesheet_link_tag :all %>
+  <%= javascript_include_tag "jquery-1.4.4.min", "application" %>
+  <%= csrf_meta_tag %>
+</head>
+<body>
+  <div id="header">
+    <div id="logo">Cumulosity</div>
+    <div id="login">Address Site Header</div>
+    <div class="clearfix"></div>
+  </div>
+  
+  <div id="navbar">
+    Navigation
+  </div>
+    
+  <%= yield %>
+
+  <div id="footer">
+    Address Site Footer
+  </div>
+</body>
+</html>

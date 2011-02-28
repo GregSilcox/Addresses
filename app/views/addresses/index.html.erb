@@ -1,0 +1,5 @@
+<h1>Listing addresses</h1>
+
+<%= render :partial => 'address', :collection => @addresses %>
+
+<%= link_to 'New Address', new_address_path, :class => "external" %>
